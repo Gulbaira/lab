@@ -1,0 +1,183 @@
+body{
+    background-color: rgba(216, 208, 208, 0.295);
+    font-family: 'Exo 2', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+input{
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 100%;
+    padding: 8px 0;
+    margin: 3px 0;
+
+}
+.facebook{
+    text-align: center;
+    padding: 20px 0 15px 0;
+}
+.facebook img{
+    width: 200px;
+}
+.box{
+    margin: 10px 555px 0 555px;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 20px;
+    border-bottom: 1px solid grey;
+}
+.box1{
+    margin: 0 555px;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    padding: 10px 20px;
+}
+.box-text{
+    text-align: center;
+    margin: 10px 0;
+    color: grey;
+}
+.box-text p{
+    color: rgba(128, 128, 128, 0.705);
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.text1{
+    color: grey;
+    border-bottom: 1px solid grey;
+    align-items: right;
+    /* padding-left: 5%; */
+}
+.section1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.section1 div{
+    width: 49%;
+}
+.section1 input{
+    width: 100%;
+}
+
+.title-small{
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.birth-date{
+    display: flex;
+}
+.birth-date img{
+    height: 14px;
+    padding-left: 5px;
+}
+.mobile{
+    width: 100%;
+}
+.password{
+    width: 100%;
+}
+.section2{
+    width: 100%;
+    /* display: flex;
+    flex-direction: row; */
+}
+.section2 select{
+    width: 32.5%;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 8px 0;
+    margin: 3px 0;
+}
+.description{
+    color: #777;
+    font-size: 11px;
+}
+button{
+    background-color: rgb(51, 197, 51);
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    
+}
+button:hover{
+    color: rgb(236, 236, 223);
+}
+.account p{
+    text-align: center;
+    color: rgb(85, 85, 212);
+}
+.gender{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+.gender:active .another-gen{
+    display: block;
+}
+
+.gender div{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 30%;
+    padding: 8px 0;
+    margin: 0 5px;
+}
+.gender-input{
+    margin: 0;
+    padding: 0;
+    width: 33%;
+}
+.gender label{
+    padding-left: 3px;
+}
+.another-gen{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.another-gender{
+    margin-top: 19px;
+
+}
+.another-gender select{
+    padding: 8px 0;
+    width: 100%;
+    border-radius: 8px;
+    padding-left: 5px;
+}
+/* .gender-input:hover{
+background-color: green;
+}
+.gender-input:active{
+    background-color: green;
+} */
+.another-gend #another:active .another-gen{
+    display: block;
+    cursor: pointer;
+    
+}
+/* .another-gend:active .another-gen{
+    display: block;
+} */
